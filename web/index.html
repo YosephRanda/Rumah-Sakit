@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>Rumah Sakit Serba Sehat </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: verdana, Helvetica, sans-serif;
+              
+            }
+           
+
+            /* Style the header */
+            header {
+
+                background-color:  chocolate;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color:black;
+            }
+
+            /* Create two columns/boxes that floats next to each other */
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px; /* only for demonstration, should be removed */
+                background: wheat;
+                padding: 20px;
+            }
+
+            /* Style the list inside the menu */
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article {
+                background-color: white;
+                float: left;
+                padding: 20px;
+                width: 70%;
+                height: 300px; /* only for demonstration, should be removed */
+            }
+
+            /* Clear floats after the columns */
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /* Style the footer */
+            footer {
+                background-color: chocolate;
+                padding: 10px;
+                text-align: center;
+                color:black;
+            }
+
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+  
+        <header>
+            <img src="rs.png" width="140" height="140"> <br>
+            <h2>Rumah Sakit</h2>    
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li> <h2><a href="http://202.94.83.190/~165314063/rumah_sakit/pd.html">Pendaftaran</a></h2></li>
+                    
+                </ul>
+            </nav>
+
+            <article> 
+		<marquee>
+                <h3>selamat datang di rumah sakit kami.</h3>
+		</marquee>
+		<marquee>
+                <div> <h3>anda senang kami ikut senang </h3></div>
+		</marquee>
+		<marquee>
+                <div> <h3>Jangan Lupa Jaga kesehatan </h3></div>
+		</marquee>
+
+            </article>
+        </section>
+
+        <footer>
+            <div>JL.STM Pembagunan NO 20 Mrican</div>
+        </footer>
+
+    </body>
+</html>
